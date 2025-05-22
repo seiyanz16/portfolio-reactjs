@@ -2,44 +2,59 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: "/images/figma.svg",
-    label: "Figma",
-    desc: "Design tool",
+    imgSrc: "/images/skills/laravel.svg",
+    label: "Laravel",
+    desc: "Framework",
   },
   {
-    imgSrc: "/images/css3.svg",
-    label: "CSS",
-    desc: "User Interface",
+    imgSrc: "/images/skills/php.svg",
+    label: "PHP",
+    desc: "",
   },
   {
-    imgSrc: "/images/javascript.svg",
+    imgSrc: "/images/skills/vue.svg",
+    label: "Vue",
+    desc: "",
+  },
+  {
+    imgSrc: "/images/skills/javascript.svg",
     label: "JavaScript",
-    desc: "Interaction",
+    desc: "",
   },
   {
-    imgSrc: "/images/nodejs.svg",
-    label: "NodeJS",
-    desc: "Web Server",
-  },
-  {
-    imgSrc: "/images/expressjs.svg",
-    label: "ExpressJS",
-    desc: "Node Framework",
-  },
-  {
-    imgSrc: "/images/mongodb.svg",
-    label: "MongoDB",
-    desc: "Database",
-  },
-  {
-    imgSrc: "/images/react.svg",
+    imgSrc: "/images/skills/react.svg",
     label: "React",
     desc: "Framework",
   },
   {
-    imgSrc: "/images/tailwindcss.svg",
+    imgSrc: "/images/skills/typescript.svg",
+    label: "Typescript",
+    desc: "",
+  },
+  {
+    imgSrc: "/images/skills/css3.svg",
+    label: "CSS",
+    desc: "User Interface",
+  },
+  {
+    imgSrc: "/images/skills/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
+  },
+  {
+    imgSrc: "/images/skills/python.svg",
+    label: "Python",
+    desc: "",
+  },
+  {
+    imgSrc: "/images/skills/mysql.svg",
+    label: "MySQL",
+    desc: "Database",
+  },
+  {
+    imgSrc: "/images/skills/figma.svg",
+    label: "Figma",
+    desc: "Slicing Design",
   },
 ];
 

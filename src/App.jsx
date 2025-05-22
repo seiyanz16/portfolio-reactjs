@@ -52,8 +52,8 @@ const App = () => {
         <About />
         <Skill />
         <Work />
-        <Review />
-        <Contact />
+        {/* <Review />
+        <Contact /> */}
       </main>
       <Footer />
     </ReactLenis>

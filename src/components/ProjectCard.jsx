@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 const ProjectCard = ({
   imgSrc,
   title,
+  description,
   tags,
   projectLink,
   clases
@@ -15,7 +16,10 @@ const ProjectCard = ({
 
       <div className="flex items-center justify-between gap-4">
         <div>
-          <h3 className="title-1 mb-3">{title}</h3>
+          <div className="mb-4">
+            <h3 className="title-1 mb-3">{title}</h3>
+            <p className="text-zinc-400 text-sm">{description}</p>
+          </div>
 
           <div className="flex flex-wrap items-center gap-2">
             {tags.map((label, key) => (
@@ -39,6 +43,7 @@ const ProjectCard = ({
 ProjectCard.propTypes = {
   imgSrc: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
   tags: PropTypes.string.isRequired,
   projectLink: PropTypes.string.isRequired,
   clases: PropTypes.string
