@@ -4,7 +4,7 @@ const works = [
   {
     imgSrc: "/images/projects/1.png",
     title: "Internity",
-    tags: ["API", "MVC", "Fullstack"],
+    tags: ["Laravel", "API", "React"],
     projectLink: "https://internity.smkn1cibinong.sch.id/",
     description:
       "A full-featured internship management platform for students and institutions built with a fullstack MVC architecture.",
@@ -12,7 +12,7 @@ const works = [
   {
     imgSrc: "/images/projects/2.png",
     title: "Blabbiokes",
-    tags: ["PHP Native", "MVC", "Fullstack"],
+    tags: ["PHP Native", "MVC"],
     projectLink: "https://bblabbiokes.go.id/",
     description:
       "A government-backed online medical testing system enabling users to book and view their lab results seamlessly.",
@@ -20,7 +20,7 @@ const works = [
   {
     imgSrc: "/images/projects/3.png",
     title: "Wiyatra",
-    tags: ["Development", "API"],
+    tags: ["Laravel", "API"],
     projectLink: "https://wiyatra.solu.co.id/",
     description:
       "An advanced digital tourism app that helps users explore destinations, access travel information, and interact with local services.",
